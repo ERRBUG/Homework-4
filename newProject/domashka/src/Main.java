@@ -3,20 +3,20 @@
 public class Main {
     public static void main(String[] args) {
 
-        int cat = 21;
-        byte dog = 127;
-        short paped = -267;
-        long land = -4567;
-        float claSs = 1.9F;
-        double grand = -2.6;
+        int myInt = 100;
+        byte myByte = 127;
+        short myShort = -267;
+        long myLong = -4567L;
+        float myFloat = 1.9F;
+        double myDouble = -2.6;
 
+        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        System.out.println("Значение переменной myByte с типом byte равно " + myByte);
+        System.out.println("Значение переменной myShort с типом short равно " + myShort);
+        System.out.println("Значение переменной myLong с типом long равно " + myLong);
+        System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
+        System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
 
-        System.out.println("коту " + cat  + " месяц");
-        System.out.println("пес съел " + dog + " единиц корма");
-        System.out.println("по подсчету у нас " + paped  + " единиц бумаги");
-        System.out.println("после ревизии у нас" +land + " кг земли");
-        System.out.println("мой класс имеет" +claSs + "значение");
-        System.out.println("мы потеряли " +grand  + " к репутации");
 
 
         float dom = 27.12F;
@@ -27,14 +27,13 @@ public class Main {
         short ful = 27897;
         byte sol = 67;
 
-
-        System.out.println("dom " + dom);
-        System.out.println("dama " + dama);
-        System.out.println("ruka " + ruka);
-        System.out.println("sok " +sok);
-        System.out.println("kis " +kis);
-        System.out.println("ful " +ful);
-        System.out.println("sol " +sol);
+        System.out.println("Значение переменной dom с типом float равно " + dom);
+        System.out.println("Значение переменной dama с типом long равно " + dama);
+        System.out.println("Значение переменной ruka с типом float равно " + ruka);
+        System.out.println("Значение переменной sok с типом short равно " + sok);
+        System.out.println("Значение переменной kis с типом int равно " + kis);
+        System.out.println("Значение переменной ful с типом short равно " + ful);
+        System.out.println("Значение переменной sol с типом byte равно " + sol);
 
 
         int ludaPavlova = 23;
