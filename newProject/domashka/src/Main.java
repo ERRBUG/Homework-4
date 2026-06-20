@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        var zd = 1;
+
         int cat = 21;
         byte dog = 127;
         short paped = -267;
@@ -10,7 +10,7 @@ public class Main {
         float claSs = 1.9F;
         double grand = -2.6;
 
-        System.out.println("Задание " + zd);
+
         System.out.println("коту " + cat  + " месяц");
         System.out.println("пес съел " + dog + " единиц корма");
         System.out.println("по подсчету у нас " + paped  + " единиц бумаги");
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("мой класс имеет" +claSs + "значение");
         System.out.println("мы потеряли " +grand  + " к репутации");
 
-        var zdd = 2;
+
         float dom = 27.12F;
         long dama = 987678965549L;
         float ruka = 2.786F;
@@ -27,7 +27,7 @@ public class Main {
         short ful = 27897;
         byte sol = 67;
 
-        System.out.println("Задание " + zdd);
+
         System.out.println("dom " + dom);
         System.out.println("dama " + dama);
         System.out.println("ruka " + ruka);
@@ -36,17 +36,17 @@ public class Main {
         System.out.println("ful " +ful);
         System.out.println("sol " +sol);
 
-        var zddd = 3;
+
         int ludaPavlova = 23;
         int annaSergeevna = 27;
         int ekateAndreeva = 30;
         int paper = 480;
         int vsegoStudent = ludaPavlova + annaSergeevna + ekateAndreeva;
         int bumagaNastudent = paper / vsegoStudent;
-        System.out.println("Задание " + zddd);
+
         System.out.println("На каждого ученика рассчитано " + bumagaNastudent + " листов бумаги");
 
-        var zv = 4;
+
         int zaDveMinut = 16;
         int minut = 2;
 
@@ -61,14 +61,14 @@ public class Main {
         int dneyVmes = 30;
         int butlZames = butlZaden * dneyVmes;
 
-        System.out.println("Задание " +zv);
+
         System.out.println("За " + dvadtmin + " минут машина произвела " + bultZaDvadtMinut + " штук бутылок");
         System.out.println("За 1 сутки машина произвела " + butlZaden + " штук бутылок");
         System.out.println("За 3 дня машина произвела " + butlZaTriDna + " штук бутылок");
         System.out.println("За 1 месяц машина произвела " + butlZames + " штук бутылок");
 
 
-        var zvs = 5;
+
 
         int vsegoBanok = 120;
         int beloyNaklass = 2;
@@ -79,11 +79,11 @@ public class Main {
         int whiteCans = vsegoKlassov * beloyNaklass;
         int brownCans = vsegoKlassov * corNaklass;
 
-        System.out.println("Задание" + zvs);
+
         System.out.println("В школе, где " + vsegoKlassov + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски");
 
 
-        var zvsr = 6;
+
         int bananov = 5;
         int bananVes = 80;
         int molokoMl = 200;
@@ -99,12 +99,12 @@ public class Main {
         int vsegoGram = bananovVsego + vsegoMoloko + vsegoPlombira + vsegoYaco;
         double vsegoKg = vsegoGram / 1000.0;
 
-        System.out.println("Задание " +zvsr);
+
         System.out.println("Вес завтрака: " + vsegoGram + " грамм");
         System.out.println("Вес завтрака: " + vsegoKg + " кг");
 
 
-        var zvd = 7;
+
 
         int vesVkg = 7;
         int vesVgrammah = vesVkg * 1000;
@@ -114,12 +114,10 @@ public class Main {
         int dney500 = vesVgrammah / teraet500;
         int srednee = (dney250 + dney500) / 2;
 
-        System.out.println("Задание " + zvd);
         System.out.println("Если худеть на 250 грамм в день, уйдет " + dney250 + " дней");
         System.out.println("Если худеть на 500 грамм в день, уйдет " + dney500 + " дней");
         System.out.println("В среднем потребуется " + srednee + " дней");
 
-        var zvdv = 8;
 
         double zarplataMashi = 67760;
         double zarplataDenisa = 83690;
@@ -134,7 +132,6 @@ public class Main {
         double novayaZpKristiny = zarplataKristiny + nadbavkaKristiny;
         double raznicaGodKristiny = (novayaZpKristiny - zarplataKristiny) * 12;
 
-        System.out.println("Задание " + zvdv);
         System.out.println("Маша теперь получает " + novayaZpMashi + " рублей. Годовой доход вырос на " + raznicaGodMashi + " рублей");
         System.out.println("Денис теперь получает " + novayaZpDenisa + " рублей. Годовой доход вырос на " + raznicaGodDenisa + " рублей");
         System.out.println("Кристина теперь получает " + novayaZpKristiny + " рублей. Годовой доход вырос на " + raznicaGodKristiny + " рублей");
