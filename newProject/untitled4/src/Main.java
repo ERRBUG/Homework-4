@@ -3,91 +3,73 @@
 public class Main {
     public static void main(String[] args) {
 
-        //Задание 1
-
-        int clientOS = 0;
-
-        if (clientOS == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
-        } else {
-            System.out.println("Установите версию приложения для Android по ссылке");
+        //Задача 1
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
         }
-        int clientAN = 1;
 
-        if (clientAN == 0) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
-        } else {
-            System.out.println("Установите версию приложения для Android по ссылке");
+        //Задача 2
+        for (int i = 10; i >= 1; i--) {
+            System.out.println(i);
         }
-        //Задание 2
-        int clientOS1 = 0;
-        int clientDeviceYear = 2014;
 
-        if (clientOS1 == 0 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOS1 == 1 && clientDeviceYear < 2015) {
-            System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        } else if (clientOS1 == 0 && clientDeviceYear >= 2015) {
-            System.out.println("Установите версию приложения для iOS по ссылке");
-        } else {
-            System.out.println("Установите версию приложения для Android по ссылке");
+        //Задача 3
+
+        for (int i = 0; i <= 17; i += 2) {
+            System.out.println(i);
         }
-        //Задание 3
 
+        //Задача 4
 
-        int year = 2021;
-
-        if (year <= 1584) {
-            System.out.println("Год должен быть больше 1584");
-        } else {
-            if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
-                System.out.println(year + " год является високосным");
-            } else {
-                System.out.println(year + " год не является високосным");
-            }
+        for (int i = 10; i >= -10; i--) {
+            System.out.println(i);
         }
-        //Задание 4
 
+        //Задача 5
 
-        int distance = 95;
-
-        if (distance <= 20) {
-            System.out.println("Потребуется дней: 1");
-        } else if (distance <= 60) {
-            System.out.println("Потребуется дней: 2");
-        } else if (distance <= 100) {
-            System.out.println("Потребуется дней: 3");
-        } else {
-            System.out.println("Свыше 100 км доставки нет");
+        for (int year = 1904; year <= 2096; year += 4) {
+            System.out.println(year + " год является високосным");
         }
-        //Задание 5
 
-        int month = 12;
+        //Задача 6
 
-        switch (month) {
-            case 12:
-            case 1:
-            case 2:
-                System.out.println("Зима");
-                break;
-            case 3:
-            case 4:
-            case 5:
-                System.out.println("Весна");
-                break;
-            case 6:
-            case 7:
-            case 8:
-                System.out.println("Лето");
-                break;
-            case 9:
-            case 10:
-            case 11:
-                System.out.println("Осень");
-                break;
-            default:
-                System.out.println("Неверный номер месяца. В году всего 12 месяцев.");
-                break;
+        for (int i = 7; i <= 98; i += 7) {
+            System.out.print(i + " ");
+        }
+
+        //Задача 7
+
+        for (int i = 1; i <= 512; i *= 2) {
+            System.out.print(i + " ");
+        }
+
+        //Задача 8
+
+        int monthlySavings = 29000;
+        int totalSavings = 0;
+
+        for (int month = 1; month <= 12; month++) {
+            totalSavings += monthlySavings;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSavings + " рублей");
+        }
+
+        //Задача 9
+
+        int monthlySavings1 = 29000;
+        double totalSavings1 = 0;
+        double monthlyRate = 0.01; // 12% / 12 месяцев
+
+        for (int month = 1; month <= 12; month++) {
+            totalSavings1 = totalSavings1 * (1 + monthlyRate) + monthlySavings;
+            // Округляем до целых для красивого вывода
+            System.out.println("Месяц " + month + ", сумма накоплений равна "
+                    + Math.round(totalSavings) + " рублей");
+        }
+
+        //Задача 10
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.println("2*" + i + "=" + (2 * i));
         }
 
     }
