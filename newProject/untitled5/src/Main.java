@@ -58,6 +58,7 @@ public class Main {
         double totalSavings1 = 0;
         double monthlyRate1 = 0.01;
         for (int month = 1; month <= 12; month++) {
+            totalSavings1 = totalSavings1 + totalSavings1/100;
             totalSavings1 = totalSavings1 + monthlySavings1;
             totalSavings1 = totalSavings1 * (1 + monthlyRate1);
             System.out.println("Месяц " + month + ", сумма накоплений равна "
