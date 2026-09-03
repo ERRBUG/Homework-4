@@ -28,15 +28,22 @@ public class ProductBasket {
         return total;
     }
 
+    // Обновлённый метод печати – с учётом специальных товаров
     public void printBasket() {
         if (size == 0) {
             System.out.println("в корзине пусто");
             return;
         }
+        int specialCount = 0;
         for (int i = 0; i < size; i++) {
-            System.out.println(basket[i]);
+            Product p = basket[i];
+            System.out.println(p); // используется переопределённый toString
+            if (p.isSpecial()) {
+                specialCount++;
+            }
         }
         System.out.println("Итого: " + getTotalCost());
+        System.out.println("Специальных товаров: " + specialCount);
     }
 
     public boolean containsProduct(String name) {
