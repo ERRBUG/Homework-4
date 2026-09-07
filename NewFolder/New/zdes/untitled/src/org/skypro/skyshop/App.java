@@ -1,7 +1,11 @@
 package org.skypro.skyshop;
 
-import org.skypro.skyshop.product.*;
+import org.skypro.skyshop.article.Article;
 import org.skypro.skyshop.basket.ProductBasket;
+import org.skypro.skyshop.product.*;
+import org.skypro.skyshop.search.SearchEngine;
+import org.skypro.skyshop.search.Searchable;
+import java.util.Arrays;
 
 public class App {
     public static void main(String[] args) {
@@ -14,8 +18,6 @@ public class App {
         Product juice = new DiscountedProduct("Сок", 120, 5);
 
         ProductBasket basket = new ProductBasket();
-
-        System.out.println("Добавление продуктов");
         basket.addProduct(apple);
         basket.addProduct(banana);
         basket.addProduct(milk);
@@ -23,26 +25,53 @@ public class App {
         basket.addProduct(cheese);
         basket.addProduct(juice);
 
-        System.out.println("\nПечать корзины");
+        System.out.println("=== Корзина ===");
         basket.printBasket();
+        System.out.println();
 
-        System.out.println("\nОбщая стоимость");
-        System.out.println("Стоимость: " + basket.getTotalCost());
 
-        System.out.println("\nПоиск товаров");
-        System.out.println("Есть ли 'Молоко'? " + basket.containsProduct("Молоко"));
-        System.out.println("Есть ли 'Сок'?   " + basket.containsProduct("Сок"));
+        SearchEngine searchEngine = new SearchEngine(10);
 
-        System.out.println("\nОчистка корзины");
-        basket.clearBasket();
+        searchEngine.add(apple);
+        searchEngine.add(banana);
+        searchEngine.add(milk);
+        searchEngine.add(bread);
+        searchEngine.add(cheese);
+        searchEngine.add(juice);
 
-        System.out.println("\nПечать после очистки");
-        basket.printBasket();
+        Article article1 = new Article("Польза яблок", "Яблоки содержат много витаминов и клетчатки.");
+        Article article2 = new Article("Молочные продукты", "Молоко, сыр, йогурт — источники кальция.");
+        Article article3 = new Article("Как выбрать хлеб", "Обращайте внимание на состав и срок годности.");
 
-        System.out.println("\nСтоимость после очистки");
-        System.out.println("Стоимость: " + basket.getTotalCost());
+        searchEngine.add(article1);
+        searchEngine.add(article2);
+        searchEngine.add(article3);
 
-        System.out.println("\nПоиск в пустой корзине");
-        System.out.println("Есть ли 'Молоко'? " + basket.containsProduct("Молоко"));
+        System.out.println("=== Поиск по запросу 'яблоко' ===");
+        printSearchResults(searchEngine.search("яблоко"));
+
+        System.out.println("=== Поиск по запросу 'молоко' ===");
+        printSearchResults(searchEngine.search("молоко"));
+
+        System.out.println("=== Поиск по запросу 'хлеб' ===");
+        printSearchResults(searchEngine.search("хлеб"));
+
+        System.out.println("=== Поиск по запросу 'сыр' ===");
+        printSearchResults(searchEngine.search("сыр"));
+
+        System.out.println("=== Поиск по запросу 'витамины' ===");
+        printSearchResults(searchEngine.search("витамины"));
+
+        System.out.println("=== Поиск по запросу 'несуществующий' ===");
+        printSearchResults(searchEngine.search("несуществующий"));
+    }
+
+    private static void printSearchResults(Searchable[] results) {
+        for (Searchable item : results) {
+            if (item != null) {
+                System.out.println(item.getStringRepresentation());
+            }
+        }
+        System.out.println();
     }
 }

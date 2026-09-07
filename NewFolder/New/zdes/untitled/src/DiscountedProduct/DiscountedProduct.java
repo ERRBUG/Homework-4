@@ -12,7 +12,6 @@ public class DiscountedProduct extends Product {
 
     @Override
     public int getPrice() {
-
         return (int) (basePrice * (1 - discountPercent / 100.0));
     }
 
