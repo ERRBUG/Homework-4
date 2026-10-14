@@ -28,7 +28,6 @@ public class ProductBasket {
         return total;
     }
 
-    // Обновлённый метод печати – с учётом специальных товаров
     public void printBasket() {
         if (size == 0) {
             System.out.println("в корзине пусто");
@@ -37,7 +36,7 @@ public class ProductBasket {
         int specialCount = 0;
         for (int i = 0; i < size; i++) {
             Product p = basket[i];
-            System.out.println(p); // используется переопределённый toString
+            System.out.println(p);
             if (p.isSpecial()) {
                 specialCount++;
             }

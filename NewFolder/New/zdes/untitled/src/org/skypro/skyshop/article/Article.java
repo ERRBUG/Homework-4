@@ -26,7 +26,7 @@ public class Article implements Searchable {
 
     @Override
     public String getSearchTerm() {
-        return title + " " + text; // ищем по названию и тексту
+        return title + " " + text;
     }
 
     @Override
