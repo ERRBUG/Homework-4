@@ -52,3 +52,5 @@ public class Article implements Searchable {
         return Objects.hash(title);
     }
 }
+
+// это костыль, так как с первого раза не получилось отправить

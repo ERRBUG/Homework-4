@@ -55,3 +55,5 @@ public abstract class Product implements Searchable {
         return Objects.hash(name);
     }
 }
+
+// к сожалению это тоже костыль
