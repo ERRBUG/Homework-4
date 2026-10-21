@@ -8,7 +8,7 @@ import org.skypro.skyshop.search.SearchEngine;
 import org.skypro.skyshop.search.Searchable;
 
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 
 public class App {
     public static void main(String[] args) {
@@ -115,13 +115,12 @@ public class App {
             System.out.println("Ошибка: " + e.getMessage());
         }
     }
-
-    private static void printResults(Map<String, Searchable> results) {
+    private static void printResults(Set<Searchable> results) {
         if (results.isEmpty()) {
             System.out.println("Ничего не найдено");
         } else {
-            for (Map.Entry<String, Searchable> entry : results.entrySet()) {
-                System.out.println(entry.getValue().getStringRepresentation());
+            for (Searchable item : results) {
+                System.out.println(item.getStringRepresentation());
             }
         }
         System.out.println();
