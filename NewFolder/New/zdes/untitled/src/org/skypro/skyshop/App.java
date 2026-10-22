@@ -110,7 +110,7 @@ public class App {
 
         try {
             Searchable best = searchEngine.findBestMatch("автомобиль");
-            System.out.println("Лучший результат \"автомобиль1\": " + best.getStringRepresentation());
+            System.out.println("Лучший результат \"автомобиль\": " + best.getStringRepresentation());
         } catch (BestResultNotFound e) {
             System.out.println("Ошибка: " + e.getMessage());
         }

@@ -56,4 +56,4 @@ public abstract class Product implements Searchable {
     }
 }
 
-// к сожалению это тоже костыль
+// к сожалению это тоже костыль, надеюсь, будет работать
