@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f15f7b27-62e1-4b84-844c-28146f94a7b6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Homework 3/Homework 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework 16.06.2026/homework 16.06.2026.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework 4/homework 4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/DZ 29.06.2026 ISP/DZ 29.06.2026 ISP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/DZ 29.06.26/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/DZ 29.06.26/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/DZ 29.06.26/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/DZ 29.06.26/DZ 29.06.26.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/untitled1/homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/untitled2/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../newProject/untitled6/untitled6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../untitled1/untitled1.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ERRBUG"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ERRBUG/Homework-4.git",
+    "accountId": "a5ab9d9a-2e9c-4e33-a6cf-e48375308651"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3G7hSBEcjVhQnd4NA3tzYWnuTX7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "#3 on HW5",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/User/IdeaProjects/NewFolder/untitled1/src/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f15f7b27-62e1-4b84-844c-28146f94a7b6" name="Changes" comment="" />
+      <created>1783328513007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1783328513007</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
